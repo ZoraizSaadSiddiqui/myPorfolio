@@ -3,16 +3,18 @@ import Navbar from './components/Navbar';
 import React from 'react';
 import Skills from './components/Skills';
 import Platform from './components/Platform';
+import Contact from './components/contact';
+import ContactUs from './components/ContactUs';
 
 export default function Home() {
   return (
-    <main  className="min-h-screen w-full bg-gradient-to-br from-pink-100 via-white to-pink-300 flex flex-col items-center">
-
-       <Navbar />
-       <Hero />
-       <Skills />
-       <Platform />
-        
-       </main>
+   <main className="min-h-screen w-full bg-gradient-to-br from-[#c6f3dd] via-white to-[#61d395] flex flex-col items-center">
+    <Navbar />
+    <Hero />
+    <Skills />
+    <Platform />
+    <Contact/>
+    <ContactUs/>
+   </main>
   );
 }

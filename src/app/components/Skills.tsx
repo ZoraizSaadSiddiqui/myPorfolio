@@ -36,11 +36,11 @@ const skillIcons = [
 
 const Skills = () => {
   return (
-    <section className="mt-10" id="skills">
-      <h2 className="text-center text-pink-600 text-[50px] font-bold  mt-12 mb-12">
+    <section className="mt-10  " id="skills">
+      <h2 className="text-center text-[#1b8248] text-[80px] font-bold  mt-16 mb-25">
         Skills
       </h2>
-<div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-12 justify-items-center px-4 sm:px-8 text-center mb-12">
+<div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-12  justify-items-center px-4 sm:px-8 text-center mb-12">
   {skillIcons.map((skill, i) => (
     <motion.div
       key={skill.label}
@@ -52,8 +52,8 @@ const Skills = () => {
       whileHover={{ scale: 1.3 }}
       className="flex flex-col items-center transition-transform"
     >
-      <div className="text-pink-600 text-7xl mb-5">{skill.icon}</div>
-      <span className="text-[20px] font-semibold text-pink-700">
+      <div className="text-[#1b8248] text-8xl mb-5">{skill.icon}</div>
+      <span className="text-[20px] font-semibold text-[#1b8248]">
         {skill.label}
       </span>
     </motion.div>

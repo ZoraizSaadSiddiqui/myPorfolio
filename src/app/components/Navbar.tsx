@@ -20,9 +20,7 @@ const Navbar = () => {
                     <a
                         key={link.href}
                         href={link.href}
-                        className="text-[14px] font-bold bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 
-                   bg-clip-text text-transparent transition-all duration-400 
-                   hover:underline hover:decoration-pink-500 hover:scale-110"
+                        className="text-[14px] font-bold bg-gradient-to-br from-[#29cd7b] to-[#2e8b57] bg-clip-text text-transparent hover:underline hover:decoration-[#1b8248] transition-transform hover:scale-110"
                     >
                         {/* bg-clip-text cut background into the shape of text */}
                         {/* text-transparent make normal text invisible so gradient shows */}

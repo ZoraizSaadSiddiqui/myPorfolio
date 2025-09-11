@@ -9,7 +9,11 @@
 }
 
 .animated-gradient-border {
-  background: linear-gradient(270deg, #ea0363, #fdc2cb, #ff7fb4);
+  background: linear-gradient(270deg, #3cb371, #2e8b57, #206040);
   background-size: 200% 200%;
   animation: gradient-move 6s linear infinite;
+}
+
+.custom-gradient-bg {
+  background: radial-gradient(circle, #ffffff 40%, #3cb371 80%, #206040 100%);
 }
