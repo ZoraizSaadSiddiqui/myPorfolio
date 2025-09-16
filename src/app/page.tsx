@@ -3,8 +3,9 @@ import Navbar from './components/Navbar';
 import React from 'react';
 import Skills from './components/Skills';
 import Platform from './components/Platform';
-import Contact from './components/contact';
+// import Contact from './components/contact';
 import ContactUs from './components/ContactUs';
+import Project from './components/Project';
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
     <Hero />
     <Skills />
     <Platform />
-    <Contact/>
+    {/* <Contact/> */}
     <ContactUs/>
+    <Project/>
    </main>
   );
 }
